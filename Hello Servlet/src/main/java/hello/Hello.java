@@ -9,6 +9,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+/*Um Servlet é uma classe Java que roda em um servidor web ou de aplicação e 
+ serve como ponto de interação entre o cliente (geralmente um navegador) 
+ e o servidor. Ele processa requisições HTTP e gera respostas, sendo amplamente 
+ usado no desenvolvimento de aplicações web baseadas em Java.*/
 @WebServlet("/Hello")
 public class Hello extends HttpServlet {
 	private static final long serialVersionUID = 1L;
